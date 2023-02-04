@@ -7,7 +7,7 @@ import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class JavaSwing implements ActionListener {
+public class AnimalMatchingGame implements ActionListener {
     
     JFrame frame;
     JLabel comparesDisplay, stopWatch;
@@ -23,7 +23,7 @@ public class JavaSwing implements ActionListener {
     GameTimer myGameTimer = new GameTimer();
     Font myFont = new FontUIResource("Ink Free", Font.BOLD, 20);
 
-    public JavaSwing() {
+    public AnimalMatchingGame() {
 
         cardsTurned = 0; 
         cardsRemaining = 20;
