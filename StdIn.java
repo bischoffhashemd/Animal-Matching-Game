@@ -1,4 +1,3 @@
-//package kindergarten;
 
 /******************************************************************************
  *  Compilation:  javac StdIn.java
